@@ -21,7 +21,7 @@ def get_sensor_value_from_pin(pin):
     except Exception as e:
         print("Something went wrong when returning the sensor value")
         print(e)
-        return -999
+        return -999 
 
 
 def send_telegram_message(message):
