@@ -59,7 +59,7 @@ while True:
         print("Request was unsuccessfull. Skipping.")
         time.sleep(10)
         continue
-    
+   
     # Step 3
     if sensor_value >= conf.threshold:
         print("Sensor value has exceeded threshold")
