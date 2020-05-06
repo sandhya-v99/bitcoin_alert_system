@@ -10,7 +10,7 @@ mybolt= Bolt(conf.bolt_api_key,conf.device_id)
 def buzzer_on_off(pin,state):
     if state == "on":
         mybolt.analogWrite(pin,'255')
-    elif state == "off":
+    elif state == "off":   
         mybolt.analogWrite(pin,'0')
 
 
