@@ -2,7 +2,7 @@ import requests
 import time
 import json
 import conf
-from boltiot import Bolt
+from boltiot import Bolt  
 
 
 mybolt= Bolt(conf.bolt_api_key,conf.device_id)
